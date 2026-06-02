@@ -1,9 +1,5 @@
 # Customer Churn Prediction - Detailed Project Report
 
-**Date**: June 2, 2026  
-**Project**: Customer Churn Prediction for Telecommunications  
-**Status**: Analysis Complete
-
 ---
 
 ## Executive Summary

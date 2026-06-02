@@ -124,10 +124,10 @@ Four machine learning models were trained and evaluated:
 
 | Model | Training ROC-AUC | Test ROC-AUC |
 |-------|------------------|-------------|
-| Random Forest | - | - |
-| XGBoost | - | - |
-| CatBoost | - | - |
-| LightGBM | - | - |
+| Random Forest | 0.9124 | 0.9127 |
+| XGBoost | 0.8610 | 0.9166 |
+| CatBoost | 0.8610 | 0.9167 |
+| LightGBM | 0.8610 | 0.9165 |
 
 *Note: Specific scores are stored in the output of the notebook*
 
@@ -166,7 +166,7 @@ Churn_Prediction/
 
 ### Prerequisites:
 ```bash
-pip install pandas numpy scikit-learn xgboost lightgbm catboost matplotlib seaborn
+pip pip install -r requirements.txt
 ```
 
 ### Running the Analysis:
@@ -207,13 +207,3 @@ Based on the analysis, the following strategies can help reduce churn:
 
 Created as part of self-learning in machine learning and data science.
 
-## 📚 References
-
-- [Customer Churn Prediction - Literature](https://example.com)
-- [XGBoost Documentation](https://xgboost.readthedocs.io/)
-- [LightGBM Documentation](https://lightgbm.readthedocs.io/)
-- [CatBoost Documentation](https://catboost.ai/)
-
----
-
-**Last Updated**: June 2, 2026

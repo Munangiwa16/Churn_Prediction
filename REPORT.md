@@ -361,10 +361,10 @@ AverageCharges = TotalCharges / Tenure
 
 | Model | Training ROC-AUC | Test ROC-AUC | Status |
 |-------|------------------|-------------|--------|
-| Random Forest | [From notebook] | [From notebook] | ✓ Evaluated |
-| XGBoost | [From notebook] | [From notebook] | ✓ Evaluated |
-| CatBoost | [From notebook] | [From notebook] | ✓ Evaluated |
-| LightGBM | [From notebook] | [From notebook] | ✓ Evaluated |
+| Random Forest | 0.9124 | 0.9127  | ✓ Evaluated |
+| XGBoost | 0.8610 | 0.9166 | ✓ Evaluated |
+| CatBoost | 0.8610 | 0.9167 | ✓ Evaluated |
+| LightGBM | 0.8610 | 0.9165 | ✓ Evaluated |
 
 **Key Observations:**
 - All models completed training successfully
